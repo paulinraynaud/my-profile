@@ -1,0 +1,97 @@
+body {
+background-color: #F2F2F2;
+font-family: Arial, sans-serif;
+}
+
+h1,h2,h3 {
+font-family: Arial, sans-serif;
+}
+
+h1 {
+color: #333333;
+font-size: 32px;
+}
+
+h2 {
+color: #666666;
+font-size: 24px;
+font-weight: bold;
+}
+
+h3{
+color: #666666;
+font-size: 18px;
+}
+
+a {
+text-decoration: none;
+color: #3366CC;
+font-size: 16px;
+}
+
+a:hover {
+color: #CC3333;
+}
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+.card-white {
+background-color: #FFFFFF;
+padding: 20px;
+box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+border: none;
+border-radius: 5px;
+margin: 15px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+.btn-blue {
+background-color: #3366CC;
+color: #FFFFFF;
+padding: 10px 15px;
+border-radius: 4px;
+font-size: 14px;
+}
+
+.btn-blue:hover {
+background-color: #CC3333;
+color: #FFFFFF;
+font-size: 14px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+padding: 5px;
+}
+
+@media (max-width: 900px) {
+/* For a screen < 960px, this CSS will be read /
+.container {
+width: 700px;
+}
+}
+@media (max-width: 600px) {
+/ For a screen < 720px, this CSS will be read /
+.container {
+width: 500px;
+}
+}
+@media (max-width: 500px) {
+/ For a screen < 540px, this CSS will be read */
+.container {
+width: 300px;
+}
+}
